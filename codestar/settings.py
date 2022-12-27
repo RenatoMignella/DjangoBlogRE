@@ -33,7 +33,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
-ALLOWED_HOSTS = ['blog-test-re-codestar.herokuapp.com', 'localhost']
+# ALLOWED_HOSTS = ['blog-test-re-codestar.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['blog-codstar-renato.herokuapp.com', 'localhost']
+
 
 
 # Application definition
